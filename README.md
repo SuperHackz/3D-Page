@@ -1,7 +1,7 @@
-# tri.js
+# 3D Page
 
 ## Overview
-`tri.js` is a JavaScript bookmarklet that applies a **3D transformation effect** to web pages using perspective and rotation. It allows dynamic interaction through **mouse movement** or **device orientation** and includes a settings menu for customization.
+`3D.js` is a JavaScript bookmarklet that applies a **3D transformation effect** to web pages using perspective and rotation. It allows dynamic interaction through **mouse movement** or **device orientation** and includes a settings menu for customization.
 
 ## Features
 - **Mouse-controlled 3D rotation**
@@ -16,17 +16,11 @@
 
 ## Usage
 ### 1. Add as a Bookmarklet
-1. Copy the following JavaScript code:
-   ```javascript
-   javascript:(function(){var js=document.body.appendChild(document.createElement("script"));js.onerror=function(){alert("Sorry, the script could not be loaded.")};js.src="https://rawgit.com/Krazete/bookmarklets/master/tri.js"})(); 
-   ```
+1. Copy the code in [3D.js](3D.js)
 2. Open your browser's **Bookmarks Manager**.
 3. Create a **new bookmark** and paste the copied code into the **URL field**.
 4. Click the bookmark on any webpage to activate the effect.
 
-### 2. Run Directly in Console
-1. Open the **browser developer console** (`F12` or `Ctrl + Shift + I` → Console tab).
-2. Paste the script and press **Enter**.
 
 ## Controls
 - `≡` Button: Toggle the settings menu.
